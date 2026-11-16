@@ -1,0 +1,29 @@
+
+# Raw datasets
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.parquet
+
+# Keep the folder structure
+!data/raw/.gitkeep
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
